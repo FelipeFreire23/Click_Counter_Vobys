@@ -77,33 +77,13 @@ npm install
 yarn install
 ```
 
-### **Executar no Android**
-
-```bash
-# Certifique-se de que o emulador Android está rodando
-# ou dispositivo conectado via USB
-
-npx react-native run-android
-```
-
-### **Executar no iOS** (apenas macOS)
-
-```bash
-# Instale os pods do iOS
-cd ios && pod install && cd ..
-
-# Execute no simulador iOS
-npx react-native run-ios
-```
-
-### **Alternativa com Expo** (se configurado)
+### **Inicialização com Expo** 
 
 ```bash
 # Inicie o Expo
-npx expo start
+npm start
 
 # Escaneie o QR Code com o app Expo Go
-# ou pressione 'a' para Android / 'i' para iOS
 ```
 
 ### **Arquitetura Implementada**
